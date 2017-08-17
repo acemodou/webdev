@@ -1,0 +1,19 @@
+{
+  "name": "posting",
+  "version": "1.0.0",
+  "description": "Posting data to the server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acemodou"
+  },
+  "author": "Modou Jaw <jawxx001@umn.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "loadash": "^1.0.0"
+  }
+}
