@@ -1,0 +1,19 @@
+td,
+th,
+tr,
+table {
+    text-align: center;
+    background-color: red;
+    border-style: double;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
