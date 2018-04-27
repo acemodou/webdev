@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+    <meta charset="utf-8">
+    <a href="index.html"><button type="button">My Places </button></a>
+    <a href="form.html"><button type="button">form input</button></a>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js">
+    </script>
+
+    <body>
+
+        <form>
+            <label> Place Name <input type="text" id="pname" required/></label> <br>
+            <label>Address Line1 <input type="text" id="aline1" required/></label><br>
+            <label>Address Line2 <input type="text" id="aline2" required /></label><br>
+            <label>Opening Time <input type="time" id="opt" required/></label><br>
+            <label>Closing Time <input type="time" id="clt" required /></label><br>
+            <label>Additional Info <input type="text" /> </label><br>
+            <input type="submit" name="Submit" onclick=" return validateForm()" />
+        </form>
+
+    </body>
+</head>
+
+</html>

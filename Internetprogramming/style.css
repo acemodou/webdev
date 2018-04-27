@@ -3,7 +3,7 @@ th,
 tr,
 table {
     text-align: center;
-    background-color: red;
+    background-color: rgb(212, 226, 230);
     border-style: double;
     margin: auto;
 }
@@ -16,4 +16,29 @@ h1 {
 
 footer {
     text-align: center;
+}
+
+form {
+    background-color: rgb(212, 226, 230);
+    width: 40%;
+    margin: auto;
+}
+
+.twitter-timeline {
+    position: fixed;
+    float: right;
+    width: 50%
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
 }

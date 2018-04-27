@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        JsonHTML
+    </title>
+</head>
+
+<body>
+    <h2>Create Json in javascript</h2>
+    <p id="demo"></p>
+    <script>
+        var text = '{"Name":"Ibrahim","Street":"Paradise","Phone":"Name of Allah"}'
+        var obj = JSON.parse(text);
+
+        document.getElementById("demo").innerHTML =
+            obj.Name + "<br>" + obj.Street + "<br>" + obj.Phone;
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hide Cities</title>
+    <script>
+        function hideCities() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <h2>Using the class attribute in Javascript</h2>
+    <p>click the button to hide all cities</p>
+
+    <button onclick="hideCities()">Hide elements</button>
+
+    <h2 class="city">Banjul</h2>
+    <p>Banjul is the capital of Gambia</p>
+
+    <h2 class="city">WashigntonDC</h2>
+    <p>WashigntonDC is the capital of Washignton</p>
+
+    <h2 class="city"> London </h2>
+    <p>London is the capital of England</p>
+
+</body>
+
+
+</html>
