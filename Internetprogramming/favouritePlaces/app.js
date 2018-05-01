@@ -11,10 +11,15 @@ function changeImage(name, text) {
 
 }
 
+
+var $ = function(id) {
+    return document.getElementById(id).value;
+}
+
 function validateForm() {
-    var x = document.getElementById('pname').value;
-    var y = document.getElementById('aline1').value;
-    var z = document.getElementById('aline2').value;
+    var x = $('pname');
+    var y = $('aline1');
+    var z = $('aline2');
 
     var pat = /^[a-zA-Z0-9 \s]+$/;
 
