@@ -5,7 +5,9 @@ table {
     text-align: center;
     background-color: rgb(212, 226, 230);
     border-style: double;
+    width: 50%;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -24,12 +26,6 @@ form {
     margin: auto;
 }
 
-.twitter-timeline {
-    position: fixed;
-    float: right;
-    width: 50%
-}
-
 img {
     display: block;
     margin-left: auto;
@@ -41,4 +37,21 @@ nav {
     width: 100%;
     text-align: center;
     background-color: yellow;
+    margin-bottom: 50px;
+}
+
+.twitter {
+    position: fixed;
+    margin-top: 50px;
+    right: 0;
+    top: 0;
+    display: block;
+}
+
+#bt1:hover {
+    background-color: green;
+}
+
+#bt2:hover {
+    background-color: greenyellow;
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Handling</title>
+    <script>
+        var $ = function(id) {
+            return document.getElementById(id);
+        }
+
+        function display_button() {
+            alert("You clicked my button");
+        }
+
+        window.onload = function() {
+            $("display").onclick = display_button;
+        }
+    </script>
+</head>
+
+<body>
+    <p><input type="button" value="click_to_trigger" id="display"></p>
+
+</body>
+
+</html>
